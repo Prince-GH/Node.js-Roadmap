@@ -1,126 +1,32 @@
 # 📚 Node.js Syllabus
 
-## Table of Contents
-
-- [Basic](#basic)
-- [Intermediate](#intermediate)
-- [Advanced](#advanced)
-
-## Basic
-
-- [Introduction to Node.js](https://nodejs.org/en/about/)
-- [Node.js Basics](https://nodejs.org/en/docs/guides/getting-started-guide/)
-  - [Installing Node.js](https://nodejs.org/en/download/)
-  - [Node.js REPL](https://nodejs.org/en/docs/guides/getting-started-guide/)
-  - [Node.js Modules](https://nodejs.org/en/docs/guides/getting-started-guide/)
-- [Node.js Core Modules](https://nodejs.org/en/docs/guides/getting-started-guide/)
-  - fs (File System)
-  - http
-  - path
-  - events
-- [npm (Node Package Manager)](https://docs.npmjs.com/)
-  - Installing packages
-  - Creating and publishing packages
-  - Managing dependencies
-- [Asynchronous Programming in Node.js](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
-  - Callbacks
-  - Promises
-  - Async/Await
-- [Express.js Framework](https://expressjs.com/)
-  - Routing
-  - Middleware
-  - Templating engines (e.g., EJS, Pug)
-  - Error handling middleware
-  - Static file serving middleware
-  - Third-party middleware (e.g., body-parser)
-- [Creating RESTful APIs with Express.js](https://expressjs.com/en/starter/basic-routing.html)
-  - GET, POST, PUT, DELETE methods
-  - Middleware for authentication and authorization
-  - Validation middleware (e.g., Joi)
-- [Working with Databases](https://node-postgres.com/)
-  - Connecting to databases
-  - Executing SQL queries
-  - ORM (Object-Relational Mapping) with Sequelize or Mongoose
-  - Database migrations
-  - Database seeding
-- [Authentication and Authorization](https://github.com/jaredhanson/passport)
-  - Using Passport.js for authentication strategies
-  - JWT (JSON Web Tokens)
-  - OAuth authentication
-- [Testing Node.js Applications](https://mochajs.org/)
-  - Unit testing with Mocha
-  - Assertion libraries (e.g., Chai)
-  - Mocking with Sinon
-  - Integration testing
-  - End-to-end testing with tools like SuperTest
-- [Logging and Monitoring](https://nodejs.org/en/docs/guides/debugging-getting-started/)
-  - Logging libraries (e.g., Winston, Bunyan)
-  - Application performance monitoring (APM) tools like New Relic or AppDynamics
-  - Error tracking with tools like Sentry or Rollbar
-
-## Intermediate
-
-- [Asynchronous Patterns](https://blog.risingstack.com/node-js-async-best-practices-avoiding-callback-hell-node-js-at-scale/)
-  - Callbacks
-  - Promises
-  - Async/Await
-  - Event Emitters
-- [Streams](https://nodejs.org/api/stream.html)
-  - Readable streams
-  - Writable streams
-  - Transform streams
-  - Piping streams
-- [Middleware Development](https://expressjs.com/en/guide/writing-middleware.html)
-  - Developing custom middleware
-  - Middleware execution order
-  - Error-handling middleware
-  - Third-party middleware development
-- [Debugging Node.js Applications](https://nodejs.org/en/docs/guides/debugging-getting-started/)
-  - Using debugger statement
-  - Debugging with Chrome DevTools
-  - Profiling Node.js applications
-- [Scaling Node.js Applications](https://blog.risingstack.com/scaling-node-js-applications/)
-  - Load balancing strategies
-  - Microservices architecture
-  - Caching strategies
-- [Security Best Practices](https://blog.risingstack.com/node-js-security-checklist/)
-  - OWASP Top 10 vulnerabilities
-  - Input validation and sanitation
-  - Cross-Site Scripting (XSS) prevention
-  - Cross-Site Request Forgery (CSRF) protection
-
-## Advanced
-
-- [Real-time Applications with Socket.IO](https://socket.io/get-started/chat/)
-  - WebSocket protocol
-  - Broadcasting events
-  - Room-based communication
-- [Dockerizing Node.js Applications](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
-  - Containerization basics
-  - Docker-compose for multi-container setups
-  - Optimizing Docker builds
-- [Serverless Architectures with Node.js](https://serverless.com/framework/docs/providers/aws/guide/intro/)
-  - AWS Lambda functions
-  - Serverless framework
-  - Event-driven architecture
-- [GraphQL with Node.js](https://graphql.org/graphql-js/)
-  - Schema definition
-  - Resolvers
-  - Apollo Server for GraphQL implementations
-  - GraphQL subscriptions
-- [CI/CD Pipelines for Node.js](https://circleci.com/blog/how-to-build-a-nodejs-ci-cd-pipeline-using-circleci/)
-  - Continuous Integration (CI) with tools like CircleCI or Travis CI
-  - Continuous Deployment (CD) strategies
-  - Deployment pipelines
-- [Authentication with OAuth2](https://oauth.net/2/)
-  - OAuth2 protocol
-  - Implementing OAuth2 authentication in Node.js applications
-  - Using OAuth2 providers like Google, Facebook, or GitHub
-- [Full-Text Search with Elasticsearch](https://www.elastic.co/)
-  - Introduction to Elasticsearch
-  - Setting up Elasticsearch in Node.js applications
-  - Indexing and searching documents
-- [Server-side Rendering (SSR) with Next.js](https://nextjs.org/)
-  - Introduction to Next.js
-  - Configuring server-side rendering
-  - Optimizing for SEO
+| Topic                                                        | Description                                                                                                                                                           | Link                                                                                   |
+|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| **Basic**                                                    |                                                                                                                                                                       |                                                                                        |
+| Introduction to Node.js                                      | Introduction to Node.js                                                                                                                                               | [Link](https://nodejs.org/en/about/)                                                   |
+| Node.js Basics                                               | Installation, REPL, Modules                                                                                                                                           | [Link](https://nodejs.org/en/docs/guides/getting-started-guide/)                        |
+| Node.js Core Modules                                         | fs, http, path, events                                                                                                                                               | [Link](https://nodejs.org/en/docs/guides/getting-started-guide/)                        |
+| npm (Node Package Manager)                                   | Package management                                                                                                                                                   | [Link](https://docs.npmjs.com/)                                                         |
+| Asynchronous Programming in Node.js                          | Callbacks, Promises, Async/Await                                                                                                                                     | [Link](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)               |
+| Express.js Framework                                         | Routing, Middleware, Templating engines                                                                                                                              | [Link](https://expressjs.com/)                                                         |
+| Creating RESTful APIs with Express.js                        | REST principles, Middleware for auth, Validation middleware                                                                                                           | [Link](https://expressjs.com/en/starter/basic-routing.html)                             |
+| Working with Databases                                       | Connecting to databases, ORM, Migrations, Seeding                                                                                                                     | [Link](https://node-postgres.com/)                                                     |
+| Authentication and Authorization                            | Passport.js, JWT                                                                                                                                                     | [Link](https://github.com/jaredhanson/passport)                                         |
+| Testing Node.js Applications                                 | Mocha, Chai, Sinon, SuperTest                                                                                                                                        | [Link](https://mochajs.org/)                                                           |
+| Logging and Monitoring                                       | Logging libraries, APM tools                                                                                                                                         | [Link](https://nodejs.org/en/docs/guides/debugging-getting-started/)                    |
+| **Intermediate**                                             |                                                                                                                                                                       |                                                                                        |
+| Asynchronous Patterns                                        | Event Emitters                                                                                                                                                       | [Link](https://blog.risingstack.com/node-js-async-best-practices-avoiding-callback-hell-node-js-at-scale/) |
+| Streams                                                      | Readable, Writable, Transform, Piping                                                                                                                                | [Link](https://nodejs.org/api/stream.html)                                              |
+| Middleware Development                                       | Custom middleware, Error handling middleware, Third-party middleware                                                                                                  | [Link](https://expressjs.com/en/guide/writing-middleware.html)                          |
+| Debugging Node.js Applications                               | Using debugger statement, Chrome DevTools, Profiling                                                                                                                  | [Link](https://nodejs.org/en/docs/guides/debugging-getting-started/)                    |
+| Scaling Node.js Applications                                 | Load balancing, Microservices, Caching                                                                                                                               | [Link](https://blog.risingstack.com/scaling-node-js-applications/)                       |
+| Security Best Practices                                      | OWASP Top 10, Input validation, XSS prevention                                                                                                                       | [Link](https://blog.risingstack.com/node-js-security-checklist/)                        |
+| **Advanced**                                                 |                                                                                                                                                                       |                                                                                        |
+| Real-time Applications with Socket.IO                        | WebSocket protocol, Broadcasting events                                                                                                                              | [Link](https://socket.io/get-started/chat/)                                             |
+| Dockerizing Node.js Applications                             | Containerization basics, Docker-compose, Optimizing builds                                                                                                            | [Link](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)                         |
+| Serverless Architectures with Node.js                        | AWS Lambda functions, Serverless framework, Event-driven architecture                                                                                                 | [Link](https://serverless.com/framework/docs/providers/aws/guide/intro/)                |
+| GraphQL with Node.js                                         | Schema definition, Resolvers, Apollo Server                                                                                                                           | [Link](https://graphql.org/graphql-js/)                                                |
+| CI/CD Pipelines for Node.js                                  | Continuous Integration (CI), Continuous Deployment (CD), Deployment pipelines                                                                                        | [Link](https://circleci.com/blog/how-to-build-a-nodejs-ci-cd-pipeline-using-circleci/) |
+| Authentication with OAuth2                                   | OAuth2 protocol, Implementing OAuth2 in Node.js, OAuth2 providers                                                                                                      | [Link](https://oauth.net/2/)                                                           |
+| Full-Text Search with Elasticsearch                          | Introduction to Elasticsearch, Setup in Node.js, Indexing and searching documents                                                                                     | [Link](https://www.elastic.co/)                                                        |
+| Server-side Rendering (SSR) with Next.js                     | Introduction to Next.js, SSR configuration, SEO optimization                                                                                                          | [Link](https://nextjs.org/)                                                            |
